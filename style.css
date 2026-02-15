@@ -1,0 +1,71 @@
+header {
+    margin-bottom: 5px;
+    color: beige;
+    font-weight: bold;
+}
+
+body {
+    background: radial-gradient(circle at center, #B48547, #916C39);
+}
+
+.container {
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+#password {
+    font-size: 20px;
+}
+
+.passwordContainer {
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    width: 275px;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 175px;
+}
+
+.button {
+    background-color: brown;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#generate {
+    margin-top: 40px;
+    background-color: #B48547;
+    border: none;
+    color: beige;
+}
+
+#generate:hover {
+    background: linear-gradient(to right, #B48547, #916C39);
+}
+
+#copyBtn {
+    background-color: beige;
+    border: 1px solid #B48547;
+    color: #916C39;
+}
